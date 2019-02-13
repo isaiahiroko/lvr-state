@@ -8,7 +8,7 @@ A single-source-of-truth state management library for Laravel applications. Acce
     ```
     $ composer require isaiahiroko/lvr-state
     ```
-2. Add provider to config/app.php
+2. Add provider to config/app.php (Only for < Laravel 5.5)
     ```
     'providers' => [
 

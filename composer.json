@@ -16,7 +16,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Isaiahiroko\\LvrState\\": ""
+            "Isaiahiroko\\LvrState\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Isaiahiroko\\LvrState\\Provider"
+            ]
         }
     }
 }
