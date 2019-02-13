@@ -1,0 +1,22 @@
+{
+    "name": "isaiahiroko/lvr-state",
+    "description": "A single-source-of-truth-like state management library for Laravel applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaiah Iroko",
+            "email": "isaiahiroko@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.3",
+        "illuminate/support": "5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Isaiahiroko\\LvrState\\": ""
+        }
+    }
+}
